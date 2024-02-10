@@ -1,0 +1,510 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.decoration {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  /* Add more styles as needed */
+}
+
+.decoration h1 {
+  color: #ffffff;
+  /* Additional heading styles */
+}
+
+.decoration p {
+  color: #ffffff;
+  /* Additional paragraph styles */
+}
+.skill-badge {
+  position: relative;
+  text-align: right;
+}
+
+.skill-level {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.skill-options {
+  margin-top: 30px;
+}
+
+.skill-options button {
+  margin-right: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.skill-options button:hover {
+  background-color: #2980b9;
+}
+.data-display {
+  text-align: center;
+}
+
+.displayed-data {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.controls button:hover {
+  background-color: #2980b9;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.my-button {
+  font-size: 21.08px;
+  color: rgb(0, 0, 0);
+  /* padding: 10px 20px; */
+  width: 274.08px;
+  height: 65.59px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  top: 24px;
+  right: 11px;
+  border-radius: 9.37px;
+  border: none;
+  background-color: #8fe4cf;
+}
+
+.button-container button {
+  margin: 5px; /* Change this value for the desired space */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.decoration {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  /* Add more styles as needed */
+}
+
+.decoration h1 {
+  color: #ffffff;
+  /* Additional heading styles */
+}
+
+.decoration p {
+  color: #ffffff;
+  /* Additional paragraph styles */
+}
+.skill-badge {
+  position: relative;
+  text-align: right;
+}
+
+.skill-level {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.skill-options {
+  margin-top: 30px;
+}
+
+.skill-options button {
+  margin-right: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.skill-options button:hover {
+  background-color: #2980b9;
+}
+.data-display {
+  text-align: center;
+}
+
+.displayed-data {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.controls button:hover {
+  background-color: #2980b9;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.my-button {
+  font-size: 21.08px;
+  color: rgb(0, 0, 0);
+  /* padding: 10px 20px; */
+  width: 274.08px;
+  height: 65.59px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  top: 24px;
+  right: 11px;
+  border-radius: 9.37px;
+  border: none;
+  background-color: #10a37f;
+}
+
+.button-container button {
+  margin: 5px; /* Change this value for the desired space */
+}
+
+
+
+
+
+.category-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+.category-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-button:hover {
+  background-color: #2980b9;
+} 
+/* App.css */
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 300px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.small-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.prev-button,
+.next-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* Add any additional styles as needed */
+
+
+/* App.css */
+
+/* Body styles */
+
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  }    
+
+/* Card styles */
+.card {
+  /* White card background */
+  border: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  margin: 10px;
+  padding: 20px;
+}
+
+.card-content {
+  /* Content styling */
+}
+
+.card h2 {
+  color: rgba(35,31,32,0.8); /* Dark text color for headings */
+}
+
+.card p {
+  color: rgba(35,31,32,0.8); /* Medium gray text color for paragraphs */
+}
+
+/* Button styles */
+
+
+/* Card List styles */
+.card-container {
+  text-align: center;
+}
+
+
+
+/* Header styles */
+
+
+/* Back to Choosing button styles */
+button {
+  background-color: #8fe4cf; /* Green button background color */
+  color: #000000; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 137.04px; 
+}
+
+button:hover {
+  background-color: #42ae5a; /* Darker green on hover */
+}
+
+/* App.css */
+
+/* ... (previous styles) ... */
+
+.card-content h2 {
+  max-height: 2.4em; /* Set the maximum height to approximately 2 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+}
+
+.card-content h2.show-more {
+  max-height: none;
+  white-space: normal; /* Override the max-height to show all lines when the 'show-more' class is applied */
+}
+.card-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-around; /* Center three cards for each line */
+    overflow-x: auto;
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  .icon-button {
+   
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .icon-button:hover {
+    background-color: #0056b3;
+  }
+      

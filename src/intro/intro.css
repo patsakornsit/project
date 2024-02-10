@@ -1,0 +1,89 @@
+.my-button-intro1 {
+    
+    color: black;
+    
+  }
+  
+  .home-nav-intro1 {
+    color: black;
+    font-family: raleway;
+  }
+  .choosing-nav-intro1 {
+    color: black;
+  }
+  .list-nav-intro1 {
+    color: black;
+  }
+  .decorated-button-intro1 {
+    
+    font-family: raleway;
+    color:  rgba(
+      0,
+      86,
+      210,
+      1
+    );
+  }
+  .decorated-button-intro1:hover {
+   
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  
+  body {
+    background-color: white;
+    font-family: raleway;
+    max-height: 100%;
+   
+  }
+  h1,
+  h2 {
+    color: rgba(35, 31, 32, 0.8);
+    font-family: raleway;
+  }
+  h2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse1-intro1 {
+    position: absolute;
+    top: -600px;
+    left: -900px;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(
+      0,
+      86,
+      210,
+      0.5
+    ); 
+    border-radius: 90%;
+    z-index: 0; 
+    filter: blur(100px);
+  }
+  .eclipse2-intro1 {
+    position: absolute;
+    bottom: -600px;
+    left: -900px;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(
+      16,
+      163,
+      127,
+      0.5
+    ); 
+    border-radius: 90%; 
+    z-index: 0;
+    filter: blur(100px);
+  }
+  .book-intro1 {
+    transform: rotate(90deg);
+  }
+  .nav-frame-intro1 {
+    width: 100vw;
+    background-color: rgba(67, 67, 68, 0.3);
+  }
+  .backgroud-intro1{
+    overflow-y: hidden;
+  }
