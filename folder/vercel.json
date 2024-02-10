@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src":"Display.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src":"/(.*)", 
+            "dest":"Display.py"
+        }
+    ]
+} 
